@@ -20,6 +20,6 @@ elif operation == '-':
 elif operation == '*':
     print("\nResult:", multiply(num1, num2))
 elif operation == '/':
-    print("\nResult:", divide(num1, num2))
+    print("\nResult:", divide(num1,num2))
 else:
     print("Invalid")
