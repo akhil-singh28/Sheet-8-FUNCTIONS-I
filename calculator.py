@@ -9,9 +9,9 @@ def divide(a,b):
         return a/b
     else:
         return "Cannot divide by 0"
-num1 = float(input())
-num2 = float(input())
-print("Choose operation: +,-, *, /")
+num1=float(input())
+num2=float(input())
+print("Choose operation: +,-,*,/")
 operation = input("----------Enter Operations---------- ")
 if operation == '+':
     print("\nResult:", add(num1, num2))
