@@ -5,3 +5,4 @@ def addtwo(a,b):
     return sum
 Sum=addtwo(a,b)
 print("Sum is:",Sum)
+
